@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="common.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>沐綿會館</title>
+    <style> 
+         body{
+          background-color: #f6eff7
+     }
+        .bar{
+            width:100%;
+            height:20px;
+            background-color: #f4cda7;
+        }
+        .col-lg-5 h1{
+            text-align: center;
+            padding: 10px 0px;
+        }
+        .padding{
+            padding-top: 70px;
+        }
+       
+        @media (min-width: 992px){
+            .col-sm-12,.col-lg-7{
+                padding-right: 0;
+            }
+        }
+
+      </style>
+    
+  </head>
+  <body>
+   
+  <div class="container">
+  <div class="row">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light col-12">
+  <a class="navbar-brand" href="index.html">沐綿會館</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">關於我們 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="hall.html">環境設備</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="room.html">房型介紹</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="food.html">月子膳食</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contact.php">聯絡我們</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+  <div class="carousel-inner size">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/3.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/1.jpg" alt="Third slide">
+    </div>
+  </div>
+</div>
+
+  <div class="bar"></div>
+<div class="container">
+  <div class="row" style="background-color:#fff;">
+      <div class="col-sm-12 col-lg-5" id="test">
+          <h1>關於我們</h1>
+          <p>沐綿會館取自於綿延不絕的恩典及幸福喜悅的傳遞
+成立動機：由於社會變遷，少子化的社會結構出現，家庭型態改變，雙薪家庭大量出現，使得家中較缺乏人員能協助產後婦女做最佳的產後調理，故成立此產後護理中心-沐綿會館，願在此提供產後婦女及baby一個最舒適的產後服務</p>
+      </div>
+      <div class="col-sm-12 col-lg-7 ">
+          <img src="images/BABY.jpg" alt="" width="100%">
+      </div>
+  </div>
+</div>
+    <div class="bar"></div>
+  <footer>
+       <p class="footertext">電話:05 636 556 | 地址: 632雲林縣虎尾鎮西安里五間厝31-7號</p>
+  </footer>
+    </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script>
+         $(window).on('resize',function(){
+      if(window.matchMedia("(min-width:1200px)").matches){
+          $('#test').addClass('padding');
+      }else{
+         $('#test').removeClass('padding');
+      }
+         });
+          $(window).trigger('resize');
+      </script>
+  </body>
+</html>

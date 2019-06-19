@@ -1,0 +1,25 @@
+*{
+    font-family: Roboto,Verdana,Geneva,Tahoma,"Heiti TC","Microsoft JhengHei",sans-serif;
+}
+
+
+.banner{
+        width: 100%;
+        height: 350px; 
+      }
+
+
+img{
+        height:auto;
+        width:100%
+     }
+footer{
+            height:50px;
+            line-height:50px;
+            background-color: #767979;
+            color:#fff;
+            width:100%;
+}
+.footertext{
+            text-align: center
+        }
